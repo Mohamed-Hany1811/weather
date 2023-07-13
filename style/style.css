@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: auto;
+    background-size: cover;
+}
+.navBar{
+    z-index: 9999999;
+}
+
+
+.search{
+    width: 75%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: none;
+    border: none;
+}
+#sub{
+     box-shadow: none;
+    border: thin;
+}
+
+
+.searchBtn{
+    z-index: 99999;
+    top: 100%;
+    left: 100%;
+    transform: translate(-110%, -115%) ;
+}
+
+
+.item{
+    
+}

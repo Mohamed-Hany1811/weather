@@ -1,0 +1,172 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style/all.css" />
+    <link rel="stylesheet" href="style/bootstrap.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+     <div class="navBar bg-secondary w-100" id="navBar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <div
+                class="logo d-flex justify-content-center align-items-center"
+              >
+                <img class="w-100 mx-2 p-2" src="images/close.png" alt="" />
+                <div class="logoText text-center text-white">
+                  <h5>weather</h5>
+                  <h6>by Hany</h6>
+                </div>
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item p-1">
+                  <a
+                    class="nav-link navItem text-info btn mx-2 border-0 rounded-pill btn-outline-primary active"
+                    aria-current="page"
+                    href="#main"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item p-1">
+                  <a
+                    class="nav-link navItem text-info btn mx-2 border-0 rounded-pill btn-outline-primary"
+                    href="#"
+                    >news</a
+                  >
+                </li>
+                <li class="nav-item p-1">
+                  <a
+                    class="nav-link navItem text-info btn mx-2 border-0 rounded-pill btn-outline-primary"
+                    href="#"
+                    >blog</a
+                  >
+                </li>
+                <li class="nav-item p-1">
+                  <a
+                    class="nav-link navItem text-info btn mx-2 border-0 rounded-pill btn-outline-primary"
+                    href="#"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    <div class="main" id="main" style="background-image: url()">
+     
+     <div class="layer bg-black bg-opacity-50 ">
+        <div  id="inner" class=" h-100 py-5">
+          <div class="search w-75 mx-auto">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                id="search"
+                class="search bg-secondary rounded-pill py-3 w-100"
+                placeholder=""
+                aria-label="Example text with button addon"
+                aria-describedby="button-addon1"
+              />
+              <button
+                class="searchBtn position-absolute btn btn-primary py-2 px-3 rounded-pill"
+                type="button"
+                id="button-addon1"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+          <div class="row mx-auto text-white p-4" id="cont">
+     
+          </div>
+        </div>
+      </div> 
+      
+    </div>
+    <div class="foot">
+      <footer id="foot" class="bg-secondary">
+        <div class="container row">
+          <div class="col-md-8 col-s2">
+            <div class="search w-100 mx-auto">
+              <div class="input-group position-relative">
+                <input
+                  type="text"
+                  id="sub"
+                  class="bg-dark rounded-pill py-3 w-100"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+                <button
+                  class="searchBtn position-absolute btn btn-primary py-2 px-3 rounded-pill"
+                  type="button"
+                  id="button-addon1"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <p class=" text-center text-white">
+              Copyright 2014 Company name. Designed by Themezy. All rights
+              reserved
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="icon-container icons d-flex align-items-center justify-content-center align-content-center h-75"
+            >
+              <a
+                class="btn btn-primary text-white mx-1 rounded-circle p-2"
+                href=""
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                class="btn btn-primary text-white mx-1 rounded-circle p-2"
+                href=""
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                class="btn btn-primary text-white mx-1 rounded-circle p-2"
+                href=""
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a
+                class="btn btn-primary text-white mx-1 rounded-circle p-2"
+                href=""
+              >
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div> 
+   
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
